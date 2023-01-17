@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+
+}
+body *{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+/* header start */
+.header-wrapper{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-end; */
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    /* padding: 30px; */
+}
+.header{
+    background-color: black;
+}
+
+.logo{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+    
+}
+
+.header_list{
+    display: flex;
+    list-style: none;
+}
+.header_list__items{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+   
+    margin-right: 47px;
+}
+.header_list:first-child{
+    color: #E3B873;
+}
+.header_list__items a{
+    text-decoration: none;
+    color: #FFFFFF; /*для всех li-шек применяется*/
+}
+.header_tel{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #E3B873;
+}
+.button{ /*обертка для кнопки*/
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+}
+.header_button{
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+@media (max-width: 768px) {
+    .navigation, .button{
+        visibility: hidden;
+    }
+    .header_number, .logo{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/* header end */
+
+/* main start */
+.section_first{
+    background-image: url(../img/image1.jpg);
+    background: contain;
+    height: 700px;
+    padding-top: 194px;
+    position: relative;
+}
+.section_first::before{
+    content: '';
+    position: absolute; /* для прозрачности фона*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);  
+}
+.section_first_content{ /*контейнер для контента*/
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+.section_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%; /*для позиционирования контента*/
+}
+.title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    align-content: flex-start;
+}
+.title_change{
+    color: #E3B873;
+    margin-bottom: 19px;
+}
+.text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+.button_first{ /*обертка кнопки*/
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    border: 0;
+    width: 207px;
+    height: 51px;
+    margin-right: 20px;
+}
+.title_button{
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+.button_change{ /*обертка кнопки*/
+    background: rgba(0, 0, 0, 0); /*для прозрачности*/
+    box-shadow: 0px 5px 15px;
+    border-radius: 2px;
+    border: 1px solid white;
+    width: 207px;
+    height: 51px;   
+}
+
+/* main end */

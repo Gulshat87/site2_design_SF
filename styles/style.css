@@ -1,0 +1,28 @@
+@import url(../styles/style1.css);
+
+/* nunito-sans-regular - latin */
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-sans-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-sans-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-sans-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-sans-v12-latin-regular.svg#NunitoSans') format('svg'); /* Legacy iOS */
+  }
+  /* yeseva-one-regular - latin */
+@font-face {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/yeseva-one-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/yeseva-one-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/yeseva-one-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/yeseva-one-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/yeseva-one-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/yeseva-one-v20-latin-regular.svg#YesevaOne') format('svg'); /* Legacy iOS */
+  }
