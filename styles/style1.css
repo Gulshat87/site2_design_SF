@@ -36,7 +36,7 @@ body *{
     
 }
 
-.header_list{
+.header_list_link{
     display: flex;
     list-style: none;
 }
@@ -49,7 +49,7 @@ body *{
    
     margin-right: 47px;
 }
-.header_list:first-child{
+.header_list_link_active:first-child{
     color: #E3B873;
 }
 .header_list__items a{
