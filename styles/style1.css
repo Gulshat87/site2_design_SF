@@ -120,7 +120,7 @@ body *{
     z-index: 1;
     display: block;
 }
-.section_content{
+.section_content_first{
     position: absolute;
     top: 0;
     left: 0;
@@ -162,7 +162,7 @@ body *{
 }
 .title_button{
     font-family: 'Nunito Sans';
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
