@@ -12,7 +12,6 @@
     justify-content: space-between;
     align-content: flex-end;
     margin-bottom: 45px;
-    
 }
 .section_content_list__item_active{
     font-family: 'Yeseva One';
@@ -33,7 +32,6 @@
     text-transform: uppercase;
     
     color: rgba(255, 255, 255, 0.3);
-
 }
 .section_second_content{
     display: flex;
@@ -78,7 +76,6 @@
 }
 .section_second_content_item{
     padding-top: 64px;
-   
 }
 .section_second_vectors{
     margin-top: 48px;
@@ -101,8 +98,7 @@
     position: relative;
     margin-top: -275px;
     margin-bottom: 91.5px;
-    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
-     
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));  
 }
 .section3_subtitle{
     font-family: 'Yeseva One';
@@ -180,8 +176,7 @@ background-position / background-size background-repeat
 }
 .input_disc{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 .section3_hr{
     width: 231px; 
@@ -196,8 +191,6 @@ background-position / background-size background-repeat
     line-height: 21px;
 
     color: rgba(54, 54, 54, 0.5);
-
-   
 }
 .input_place{
     font-family: 'Nunito Sans';
@@ -222,10 +215,8 @@ background-position / background-size background-repeat
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .section3_button_disc{
-    
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -236,16 +227,18 @@ background-position / background-size background-repeat
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
-    
-
+}
+.first-checkbox{
+    margin-bottom: 150px;
 }
 .label {
     cursor: pointer;
-    
-  }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
   .checkbox{
     display: none;
-    
   }
   .fake{
     display: inline-flex;
@@ -254,30 +247,130 @@ background-position / background-size background-repeat
     background: #E3B873;
     color: black;
     justify-content: center;
-    
-  }
+    margin-right: 10px;
+}
   .fake::before{
     content:"\2714";
     opacity: 0;
     transition: .5s;
-  }
+}
   .checkbox:checked + .fake::before{
     opacity: 1;
     color: #FFFFFF;
-  }
+}
   .checkbox:checked + .fake{ 
     background-color: #FFFFFF;
-  }
+}
   .check_text{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 163.68%;
-    /* or 23px */
-    
-    
+     
     color: #181818;
-  }
+}
   
 /* section third end */
+
+/* section4 start */
+.section4{
+    margin-bottom: 230px;
+}
+.section4_head{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+.section4_subtitle{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+    margin-bottom: 13px;
+}
+.section4_pic{
+    height: 28px;
+    width: 114px;
+    margin-bottom: 31px;
+}
+.section4_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+.section4-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.container_img{
+    position: relative;
+}
+.container_box{
+    width: 336px;
+    height: 286px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+
+    position: absolute;
+    top: 69%;
+    left: 7%;
+    padding-top: 25px;
+}
+.container_list{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    
+    color: #959595;
+    list-style: disc outside;
+    list-style: disc inside;
+    padding-left: 33px;
+}
+.container_href{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #363636;
+    list-style: none;
+    padding-left: 33px;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+.section4_button{
+    position: absolute;
+    top: 130%;
+    left: 7%;
+    z-index: 2;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+
+    width: 228px;
+    height: 54px;
+
+    border: 0;
+}
+.section4_button_text{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* section4 end */

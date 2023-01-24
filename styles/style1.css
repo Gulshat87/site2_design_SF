@@ -72,6 +72,8 @@ body *{
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     border: 0;
+    width: 161px;
+    height: 37px;
 }
 .header_button{
     font-family: 'Nunito Sans';
