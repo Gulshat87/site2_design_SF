@@ -215,6 +215,7 @@ background-position / background-size background-repeat
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: flex-end;
 }
 .section3_button_disc{
     font-family: 'Nunito Sans';
@@ -229,7 +230,7 @@ background-position / background-size background-repeat
     color: #FFFFFF;
 }
 .first-checkbox{
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 .label {
     cursor: pointer;
