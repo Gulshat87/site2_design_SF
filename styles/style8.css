@@ -1,0 +1,105 @@
+/* section8 start */
+.section8{
+    position: relative;
+}
+.sect8_box{
+    position: absolute;
+    top: 0;
+    left: 574px;
+    width: 883px;
+    height: 516px;
+    
+    /* justify-content: space-evenly; */
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    margin-top: -250px;
+    z-index: 1;
+}
+.sect8_subtitle{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding-top: 34.4px;
+    margin-bottom: 85px;
+}
+
+.input8_box{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.section8_hr{
+    width: 231px;
+}
+.section8_1_hr{
+    width: 516px;
+}
+.input8_disc{
+    margin-right: 58px;
+    display: flex;
+    flex-direction: column; 
+
+}
+.input8_1_disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 150px;
+}
+.first8-checkbox{
+    margin-bottom: 50px;
+}
+.section8_button{
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    border: 0;
+    width: 200px;
+    height: 51px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 334px;
+}
+/* box_block1 end */
+
+/* box_block2 start */
+.box_black2{
+    position: relative;
+    width: 1440px;
+    height: 954px;
+    background: url("../img/sect8_bg.png");
+    /* background: linear-gradient(180deg,
+     rgba(24, 24, 24, 0.9) 3.47%,
+     rgba(24, 24, 24, 0.72) 100%); */
+     background-size: contain;
+}
+.sect8_title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #E3B873;
+    /* margin-top: 600px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* section8 end */
