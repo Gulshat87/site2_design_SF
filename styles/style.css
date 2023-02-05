@@ -38,6 +38,8 @@ body *{
 .wrapper{
     margin: 0 auto;
     max-width: 1256px;
+    
+
 }
 /* header start */
 .header-wrapper{
