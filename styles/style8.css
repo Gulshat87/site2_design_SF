@@ -5,7 +5,7 @@
 .sect8_box{
     position: absolute;
     top: 0;
-    left: 574px;
+    left: 300px;
     width: 883px;
     height: 516px;
     
@@ -80,11 +80,8 @@
     position: relative;
     width: 1440px;
     height: 954px;
-    background: url("../img/sect8_bg.png");
-    /* background: linear-gradient(180deg,
-     rgba(24, 24, 24, 0.9) 3.47%,
-     rgba(24, 24, 24, 0.72) 100%); */
-     background-size: contain;
+    background: url(../img/sect8_bg.png);
+    background-size: contain;
 }
 .sect8_title{
     font-family: 'Yeseva One';
@@ -96,10 +93,34 @@
     text-transform: uppercase;
     
     color: #E3B873;
-    /* margin-top: 600px; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    margin-top: 200px;    
+}
+.sect8_bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 954px;
+    background: linear-gradient(180deg,
+     rgba(24, 24, 24, 0.9) 3.47%,
+     rgba(24, 24, 24, 0.72) 100%);
+     position: absolute;
+     top: 0;
+     right: 0;
 }
 
+.sect8_a_pic{
+   padding: 15px;
+}
 /* section8 end */
+/* footer start */
+.footer-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 133px;
+    align-items: center;
+    background-color: #131313;
+}
+/* footer end */

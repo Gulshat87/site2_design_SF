@@ -13,8 +13,6 @@ body *{
 /* header start */
 .header-wrapper{
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-items: flex-end; */
     justify-content: space-between;
     height: 83px;
     align-items: center;
