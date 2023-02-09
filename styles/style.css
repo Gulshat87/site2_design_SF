@@ -275,8 +275,9 @@ a{
 
 /* section2 start */
 .section2{
-  background-color: black;
+  background-color: #131313;
   /* padding-top: 107px; */
+  padding-bottom: 390px;
 }
 .section2_content_list{
   display: flex;
@@ -315,9 +316,9 @@ a{
 .section2_content{
   display: flex;
   flex-direction: row;
-  height: 30vh;
-  margin-right: 50px;
-  margin-left: 50px;
+  /* height: 30vh; */
+  /* margin-right: 50px;
+  margin-left: 50px; */
 }
 .section2_list{
   display: flex;
@@ -448,7 +449,10 @@ a{
 
 /* section3 start */
 .section3{
-   padding-bottom: 147px;
+   /* padding-bottom: 147px;
+   padding-top: 20px; */
+   margin-top: -300px;
+   margin-bottom: 75px;
 }
 .section3_head{
   display: grid;
@@ -517,7 +521,7 @@ background-position / background-size background-repeat
 .section3_line{
   background: #E3B873;
   width: 55px;
-  margin: 62px auto 34px;
+  margin: 62px 46% 34px;
 }  
 .section3_disc{
   font-family: 'Nunito Sans';
@@ -528,7 +532,7 @@ background-position / background-size background-repeat
   text-align: center;
   
   color: #363636;
-  width: 681px;
+  max-width: 681px;
   /* margin-bottom: 91px; */
 }
 
@@ -653,21 +657,23 @@ background-position / background-size background-repeat
 @media screen and (max-width:1300px){
   .section3{
     background-color: #131313;
-    height: 38vh;
+    /* height: 38vh; */
+    padding-bottom: 95px;
   }
   .section3_head{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: -114px;
+    margin-bottom: 40px;
   }
   .section3_subtitle{
     color: #FFFFFF;
     width: 100%;
     text-align: center;
     padding: 0 30px;
+    margin-top: 145px;
   }
    .section3_img{
     width: 340px;
@@ -680,7 +686,7 @@ background-position / background-size background-repeat
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 61px;
+    /* margin-bottom: 61px; */
    }
    .section3_input{
     display: flex;
@@ -689,6 +695,7 @@ background-position / background-size background-repeat
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: -95px;
    }
    .input_disc{
     display: flex;
@@ -1244,7 +1251,7 @@ align-items: stretch;
 .sect8_box{
   position: absolute;
   top: 0;
-  left: 300px;
+  left: 191px;
   width: 883px;
   height: 516px;
   background: #131313;
@@ -1309,10 +1316,10 @@ align-items: stretch;
 /* box_block2 start */
 .box_black2{
   position: relative;
-  width: 1440px;
+  /* width: 1440px; */
   height: 954px;
   background: url(../img/sect8_bg.png);
-  background-size: contain;
+  /* background-size: contain; */
 }
 .sect8_title{
   font-family: 'Yeseva One';
@@ -1331,14 +1338,14 @@ align-items: stretch;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1440px;
+  width: -webkit-fill-available;;
   height: 954px;
   background: linear-gradient(180deg,
    rgba(24, 24, 24, 0.9) 3.47%,
    rgba(24, 24, 24, 0.72) 100%);
    position: absolute;
    top: 0;
-   right: 0;
+   /* right: 0; */
 }
 
 .sect8_a_pic{
@@ -1350,7 +1357,7 @@ align-items: stretch;
 }
 @media screen and (max-width: 1300px){
   .section8{
-    background: #131313;
+    /* background: #131313; */
    
   }
   .sect8_box{
@@ -1389,10 +1396,10 @@ align-items: stretch;
     gap: 10px;
   }
   .sect8_map{
-    width: 300px;
+    /* width: 300px;
     height: 200px;
     position: absolute;
-    top: 20%;
+    top: 20%; */
   }
   .sect8_title{
     margin-top: 20px;
@@ -1405,7 +1412,7 @@ align-items: stretch;
 .footer-wrapper{
   display: flex;
   justify-content: space-evenly;
-  width: 1440px;
+  /* width: 1440px; */
   height: 133px;
   align-items: center;
   background-color: #131313;
